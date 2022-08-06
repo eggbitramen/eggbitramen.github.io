@@ -102,7 +102,7 @@ _original theme_
 
 <br/>
 
-![Image with caption](../assets/img/tale_original_trim.PNG "altered theme")
+![Image with caption](../assets/img/tale_original_trim.png "altered theme")
 _altered theme_
 
 <br/>
