@@ -143,3 +143,27 @@ bundle exec jekyll serve
 <br/><br/>
 
 ## Publishing to Github Pages
+The last thing we need to do with our website is put it online so that others can visit. We have two options for publishing our static site: uploading our generated _site folder to our web hosting or publishing our static site through Github Pages.
+<br/><br/>
+First, we need to commit and push our local repository to github repository, since we cloned this project from forked repository, we don’t need to set remote url for our local repository :
+{% highlight shell %}
+git add .
+git commit -m “some changes”
+git push -u origin master
+{% endhighlight %}
+The command above will push our local project to online github repository at master branch.
+<br/><br/>
+
+That concludes our local repository activity; we will now proceed to our Github account. Go to the dashboard and select the website repository that we previously forked. For myself it was `eggbitramen/eggbitramen.github.io`. Github will execute an action to build and deploy the website after we push a static site project with Jekyll. By clicking the 'Action' button, we could view this progress report.
+<br/><br/>
+![Image with caption](../assets/img/github_action.png "github repository action page")
+_github repository action page_
+<br/><br/>
+Then we click the `Settings` button and navigate to the `Page` menu on the left sidebar. We can see some options for the source of the branch that we want to deploy here, and because we pushed our site to the master branch, then we change the `Branch` section to `master`.
+<br/><br/>
+![Image with caption](../assets/img/github_pages.png "altered theme")
+_github page menu_
+<br/><br/>
+That was a lot of work, but our blog is now live, we can access it through the shown domain on previous github page menu, for myself it was `https://eggbitramen.github.io`. Remember that by hosting your site on github pages, your source code is accessible to others, so don't hide anything in your source code. Also when you make changes to your site, simply push your local repository to the github repository , and Github will take care of the rest.
+
+<center> /ᐠ . ۪ . ᐟ\ﾉ </center>

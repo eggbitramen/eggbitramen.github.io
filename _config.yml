@@ -1,5 +1,5 @@
 # Site settings
-title:          0-Bit Archive
+title:          0bit Archive
 description:    "Here lies whatever I learned."
 # baseurl:        "/tale"
 url:            "https://eggbitramen.github.io"
@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Lukman Alfian
+  url:          https://eggbitramen.github.io
+  email:        eggbitramen@gmail.com
 
 # Build settings
 markdown:       kramdown
